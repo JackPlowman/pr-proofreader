@@ -21,13 +21,8 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4.1.0
-        with:
-          node-version: "22"
-
-      - name: Install Dependencies
-        run: npm install
+      - name: Setup Dependencies
+        uses: ./.github/actions/setup-dependencies
 
       # Lint and Format everything
       - name: Lint Code Base
