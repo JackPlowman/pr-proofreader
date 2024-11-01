@@ -15,13 +15,7 @@ python:
 javascript:
   - any:
       - changed-files:
-          - any-glob-to-any-file:
-              [
-                "*.js",
-                "*.jsx",
-                "**/*.js",
-                "**/*.jsx",
-              ]
+          - any-glob-to-any-file: ["*.js", "*.jsx", "**/*.js", "**/*.jsx"]
 just:
   - any:
       - changed-files:
