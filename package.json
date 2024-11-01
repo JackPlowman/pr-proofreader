@@ -8,6 +8,10 @@
     "globals": "^15.11.0",
     "prettier-plugin-organize-imports": "^4.1.0"
   },
+  "engines": {
+    "npm": ">=10.0.0",
+    "node": ">=22.8.0"
+  },
   "prettier": {
     "plugins": [
       "prettier-plugin-organize-imports"
