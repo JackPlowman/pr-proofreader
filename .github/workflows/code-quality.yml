@@ -21,6 +21,14 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v4.1.0
+        with:
+          node-version: "22"
+
+      - name: Install Dependencies
+        run: npm install
+
       # Lint and Format everything
       - name: Lint Code Base
         uses: super-linter/super-linter/slim@v7.1.0
@@ -31,7 +39,6 @@ jobs:
           LINTER_RULES_PATH: .github/super-linter-configurations
           VALIDATE_JAVASCRIPT_STANDARD: false
           VALIDATE_JAVASCRIPT_ES: false
-          VALIDATE_JAVASCRIPT_PRETTIER: false
           VALIDATE_JSON: false
 
   check-markdown-links:
