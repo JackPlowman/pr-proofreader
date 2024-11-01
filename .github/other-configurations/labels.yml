@@ -50,8 +50,8 @@
   name: python
   description: Pull requests that update Python code
 - color: 00ff1e
-  name: typescript
-  description: Pull requests that update TypeScript code
+  name: javascript
+  description: Pull requests that update JavaScript code
 - color: 000000
   name: github_actions
   description: Pull requests that update GitHub Actions code
