@@ -29,6 +29,7 @@ jobs:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           LINTER_RULES_PATH: .github/super-linter-configurations
+          FILTER_REGEX_EXCLUDE: "src/**"
 
   check-markdown-links:
     name: Check Markdown links
