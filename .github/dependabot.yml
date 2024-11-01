@@ -4,6 +4,7 @@ updates:
   - package-ecosystem: "github-actions"
     directories:
       - "/"
+      - ".github/actions/setup-dependencies"
     schedule:
       interval: "daily"
     target-branch: "main"
