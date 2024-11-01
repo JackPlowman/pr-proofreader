@@ -2,5 +2,15 @@
   "manifest_version": 3,
   "name": "Pull Request Proofreader",
   "version": "1.0.0",
-  "description": "Simple extension to help with pull request proofreading"
+  "description": "Simple extension to help with pull request proofreading",
+  "permissions": ["activeTab", "storage"],
+  "background": {
+    "service_worker": "src/background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["src/content.js"]
+    }
+  ]
 }
