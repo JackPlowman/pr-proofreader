@@ -33,10 +33,16 @@ jobs:
           VALIDATE_JAVASCRIPT_ES: false
           VALIDATE_JSON: false
 
+          # Disable Prettier
+          VALIDATE_CSS_PRETTIER: false
+          VALIDATE_HTML_PRETTIER: false
           VALIDATE_JAVASCRIPT_PRETTIER: false
+          VALIDATE_JSONC_PRETTIER: false
           VALIDATE_JSON_PRETTIER: false
-          VALIDATE_YAML_PRETTIER: false
           VALIDATE_MARKDOWN_PRETTIER: false
+          VALIDATE_TYPESCRIPT_PRETTIER: false
+          VALIDATE_VUE_PRETTIER: false
+          VALIDATE_YAML_PRETTIER: false
 
   check-markdown-links:
     name: Check Markdown links
