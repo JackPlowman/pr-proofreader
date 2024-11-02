@@ -69,8 +69,8 @@ jobs:
       - name: Check Justfile Format
         run: just just-format-check
 
-  eslint:
-    name: Run ESLint
+  check-javascript-code:
+    name: Check JavaScript Code
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
@@ -81,13 +81,13 @@ jobs:
       - name: Setup Dependencies
         uses: ./.github/actions/setup-dependencies
 
+      - name: Check JavaScript Formatting
+        run: just prettier-check
+
       - name: Run ESLint
         env:
           SARIF_ESLINT_IGNORE_SUPPRESSED: "true"
-        run: npx eslint .
-          --config eslint.config.js
-          --format @microsoft/eslint-formatter-sarif
-          --output-file eslint-results.sarif
+        run: just eslint-with-sarif
         continue-on-error: true
 
       - name: Upload analysis results to GitHub
