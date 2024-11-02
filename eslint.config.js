@@ -4,8 +4,6 @@ export default [
       globals: {
         chrome: true,
       },
-    },
-    plugins: ["github"], // Add this line
-    extends: ["plugin:github/recommended"], // Add this line
+    }
   },
 ];
