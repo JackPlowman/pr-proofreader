@@ -4,6 +4,6 @@ export default [
       globals: {
         chrome: true,
       },
-    }
+    },
   },
 ];
