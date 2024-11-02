@@ -5,5 +5,7 @@ export default [
         chrome: true,
       },
     },
+    plugins: ["github"], // Add this line
+    extends: ["plugin:github/recommended"], // Add this line
   },
 ];
