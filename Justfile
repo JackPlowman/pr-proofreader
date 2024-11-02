@@ -27,11 +27,11 @@ eslint-with-sarif:
 
 # Check files are prettier formatted
 prettier-check:
-    prettier . --check
+    npx prettier . --check
 
 # Format files with prettier
 prettier-format:
-    prettier . --check --write
+    npx prettier . --check --write
 
 # ------------------------------------------------------------------------------
 # Justfile
