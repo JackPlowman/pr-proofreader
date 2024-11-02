@@ -8,9 +8,17 @@ updates:
     schedule:
       interval: "daily"
     target-branch: "main"
+    groups:
+      github-actions:
+        patterns:
+          - "*"
 
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "daily"
     target-branch: "main"
+    groups:
+      javascript:
+        patterns:
+          - "*"
