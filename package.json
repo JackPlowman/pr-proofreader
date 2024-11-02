@@ -19,5 +19,8 @@
     "plugins": [
       "prettier-plugin-organize-imports"
     ]
+  },
+  "dependencies": {
+    "cspell-lib": "^8.15.5"
   }
 }
