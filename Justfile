@@ -18,17 +18,20 @@ eslint-check:
 eslint-fix:
     npx eslint . --fix
 
+eslint-with-sarif:
+    npx eslint . --config eslint.config.js --format @microsoft/eslint-formatter-sarif --output-file eslint-results.sarif
+
 # ------------------------------------------------------------------------------
 # Prettier
 # ------------------------------------------------------------------------------
 
 # Check files are prettier formatted
 prettier-check:
-    prettier . --check
+    npx prettier . --check
 
 # Format files with prettier
 prettier-format:
-    prettier . --check --write
+    npx prettier . --check --write
 
 # ------------------------------------------------------------------------------
 # Justfile
