@@ -7,6 +7,8 @@ updates:
       - ".github/actions/setup-dependencies"
     schedule:
       interval: "daily"
+    commit-message:
+      prefix: "deps(github-actions)"
     target-branch: "main"
     groups:
       github-actions:
@@ -17,6 +19,8 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+    commit-message:
+      prefix: "deps(javascript)"
     target-branch: "main"
     groups:
       javascript:
