@@ -6,7 +6,10 @@ updates:
       - "/"
       - ".github/actions/setup-dependencies"
     schedule:
-      interval: "daily"
+      interval: "weekly"
+      day: "saturday"
+      time: "01:00"
+      timezone: "Europe/London"
     commit-message:
       prefix: "deps(github-actions)"
     target-branch: "main"
@@ -18,7 +21,10 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "weekly"
+      day: "saturday"
+      time: "01:00"
+      timezone: "Europe/London"
     commit-message:
       prefix: "deps(javascript)"
     target-branch: "main"
