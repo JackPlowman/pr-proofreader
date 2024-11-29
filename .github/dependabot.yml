@@ -35,3 +35,6 @@ updates:
       javascript:
         patterns:
           - "*"
+        update-types:
+          - "patch"
+          - "minor"
