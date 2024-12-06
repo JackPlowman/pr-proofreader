@@ -25,7 +25,7 @@ jobs:
         uses: ./.github/actions/setup-dependencies
       # Lint and Format everything
       - name: Lint Code Base
-        uses: super-linter/super-linter/slim@v7.1.0
+        uses: super-linter/super-linter/slim@v7.2.0
         env:
           VALIDATE_ALL_CODEBASE: true
           DEFAULT_BRANCH: main
@@ -84,7 +84,7 @@ jobs:
         continue-on-error: true
 
       - name: Upload analysis results to GitHub
-        uses: github/codeql-action/upload-sarif@v3.27.0
+        uses: github/codeql-action/upload-sarif@v3.27.6
         with:
           sarif_file: eslint-results.sarif
           wait-for-processing: true
@@ -96,12 +96,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4.2.2
       - name: Initialize CodeQL
-        uses: github/codeql-action/init@v3.27.1
+        uses: github/codeql-action/init@v3.27.6
         with:
           languages: javascript
           queries: security-and-quality
       - name: Perform CodeQL Analysis
-        uses: github/codeql-action/analyze@v3.27.1
+        uses: github/codeql-action/analyze@v3.27.6
 
   run-code-limit:
     name: Run Code Limit
