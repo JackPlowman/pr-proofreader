@@ -1,7 +1,7 @@
 {
   "version": "0.18.1",
-  "uuid": "f285e3d3-f9bf-49aa-b7df-b9f37c6e55f1",
-  "timestamp": "2025-01-11T21:00:57+00:00",
+  "uuid": "8a70f592-e73a-467b-a7e8-4aecec2315ef",
+  "timestamp": "2025-01-18T11:06:05+00:00",
   "root": "/github/workspace",
   "repository": {
     "owner": "JackPlowman",
@@ -21,8 +21,8 @@
     "tree": {
       "./": {
         "entries": [
-          "eslint.config.js",
           "webpack.config.js",
+          "eslint.config.js",
           "src/"
         ],
         "profile": [0, 0, 0, 0]
@@ -36,16 +36,16 @@
       }
     },
     "files": {
-      "eslint.config.js": {
-        "checksum": "efd598f4533ba2cb06e26c9b728982f0",
+      "webpack.config.js": {
+        "checksum": "c55c4a4485178fab78714849772e2527",
         "language": "JavaScript",
         "loc": 0,
         "profile": [0, 0, 0, 0],
         "measurements": [
         ]
       },
-      "webpack.config.js": {
-        "checksum": "c55c4a4485178fab78714849772e2527",
+      "eslint.config.js": {
+        "checksum": "efd598f4533ba2cb06e26c9b728982f0",
         "language": "JavaScript",
         "loc": 0,
         "profile": [0, 0, 0, 0],
