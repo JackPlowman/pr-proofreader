@@ -1,7 +1,7 @@
 {
   "version": "0.18.1",
-  "uuid": "e035da9b-5571-438f-9c55-2b34f23341ca",
-  "timestamp": "2025-01-20T21:40:50+00:00",
+  "uuid": "94a4a574-ac7a-4cec-83b4-f5eeabe6aba2",
+  "timestamp": "2025-01-20T21:49:10+00:00",
   "root": "/github/workspace",
   "repository": {
     "owner": "JackPlowman",
@@ -12,8 +12,8 @@
     "totals": {
       "JavaScript": {
         "files": 4,
-        "lines_of_code": 37,
-        "functions": 3,
+        "lines_of_code": 0,
+        "functions": 0,
         "hard_to_maintain": 0,
         "unmaintainable": 0
       }
@@ -25,19 +25,19 @@
           "eslint.config.js",
           "src/"
         ],
-        "profile": [20, 17, 0, 0]
+        "profile": [0, 0, 0, 0]
       },
       "src/": {
         "entries": [
           "content.js",
           "background.js"
         ],
-        "profile": [20, 17, 0, 0]
+        "profile": [0, 0, 0, 0]
       }
     },
     "files": {
       "webpack.config.js": {
-        "checksum": "c55c4a4485178fab78714849772e2527",
+        "checksum": "2d44551e34ccad24b59a0cf2b218d0ae",
         "language": "JavaScript",
         "loc": 0,
         "profile": [0, 0, 0, 0],
@@ -53,18 +53,15 @@
         ]
       },
       "src/content.js": {
-        "checksum": "74ebd6fa3026fb4e3d661bda66c8c96f",
+        "checksum": "eee9e94ab4f4f25aba31e1c11c0ab7ed",
         "language": "JavaScript",
-        "loc": 37,
-        "profile": [20, 17, 0, 0],
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
         "measurements": [
-          {"unit_name": "analyzeText", "start": {"line": 8, "column": 1}, "end": {"line": 15, "column": 2}, "value": 8},
-          {"unit_name": "highlightIssues", "start": {"line": 17, "column": 1}, "end": {"line": 31, "column": 2}, "value": 12},
-          {"unit_name": "readGitHubContent", "start": {"line": 33, "column": 1}, "end": {"line": 55, "column": 2}, "value": 17}
         ]
       },
       "src/background.js": {
-        "checksum": "d6ef992f7dc8a8d41536a5ab8fb72f39",
+        "checksum": "f58f004b035ef2e65e3d6c3cddfb9fbc",
         "language": "JavaScript",
         "loc": 0,
         "profile": [0, 0, 0, 0],
