@@ -1,0 +1,76 @@
+{
+  "version": "0.18.1",
+  "uuid": "e035da9b-5571-438f-9c55-2b34f23341ca",
+  "timestamp": "2025-01-20T21:40:50+00:00",
+  "root": "/github/workspace",
+  "repository": {
+    "owner": "JackPlowman",
+    "name": "pr-proofreader",
+    "branch": "harper"
+  },
+  "codebase": {
+    "totals": {
+      "JavaScript": {
+        "files": 4,
+        "lines_of_code": 37,
+        "functions": 3,
+        "hard_to_maintain": 0,
+        "unmaintainable": 0
+      }
+    },
+    "tree": {
+      "./": {
+        "entries": [
+          "webpack.config.js",
+          "eslint.config.js",
+          "src/"
+        ],
+        "profile": [20, 17, 0, 0]
+      },
+      "src/": {
+        "entries": [
+          "content.js",
+          "background.js"
+        ],
+        "profile": [20, 17, 0, 0]
+      }
+    },
+    "files": {
+      "webpack.config.js": {
+        "checksum": "c55c4a4485178fab78714849772e2527",
+        "language": "JavaScript",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "eslint.config.js": {
+        "checksum": "efd598f4533ba2cb06e26c9b728982f0",
+        "language": "JavaScript",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "src/content.js": {
+        "checksum": "74ebd6fa3026fb4e3d661bda66c8c96f",
+        "language": "JavaScript",
+        "loc": 37,
+        "profile": [20, 17, 0, 0],
+        "measurements": [
+          {"unit_name": "analyzeText", "start": {"line": 8, "column": 1}, "end": {"line": 15, "column": 2}, "value": 8},
+          {"unit_name": "highlightIssues", "start": {"line": 17, "column": 1}, "end": {"line": 31, "column": 2}, "value": 12},
+          {"unit_name": "readGitHubContent", "start": {"line": 33, "column": 1}, "end": {"line": 55, "column": 2}, "value": 17}
+        ]
+      },
+      "src/background.js": {
+        "checksum": "d6ef992f7dc8a8d41536a5ab8fb72f39",
+        "language": "JavaScript",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      }
+    }
+  }
+}
