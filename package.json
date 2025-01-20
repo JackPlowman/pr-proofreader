@@ -19,5 +19,8 @@
     "plugins": [
       "prettier-plugin-organize-imports"
     ]
+  },
+  "dependencies": {
+    "harper.js": "^0.16.0"
   }
 }

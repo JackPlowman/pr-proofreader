@@ -1,16 +1,17 @@
 {
   "manifest_version": 3,
-  "name": "Pull Request Proofreader",
+  "name": "GitHub Reader",
   "version": "1.0.0",
-  "description": "Simple extension to help with pull request proofreading",
-  "permissions": ["activeTab", "storage"],
+  "description": "Reads GitHub website content",
+  "permissions": ["activeTab", "storage", "scripting"],
+  "host_permissions": ["https://github.com/*"],
   "background": {
     "service_worker": "src/background.js"
   },
   "content_scripts": [
     {
       "matches": ["https://github.com/*"],
-      "js": ["src/content.js"]
+      "js": ["dist/extension.bundle.js"]
     }
   ]
 }
