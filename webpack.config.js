@@ -1,16 +1,18 @@
 import path from "path";
 import { fileURLToPath } from "url";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export default {
-  mode: "production",
   entry: {
-    contentScript: "./src/content.js",
+    content: "./src/content.js",
+    background: "./src/background.js",
   },
   output: {
+    filename: "[name].bundle.js",
     path: path.resolve(__dirname, "dist"),
-    filename: "extension.bundle.js",
+  },
+  resolve: {
+    extensions: [".js"],
   },
 };
