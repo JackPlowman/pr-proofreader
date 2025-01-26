@@ -1,7 +1,7 @@
 {
   "version": "0.18.1",
-  "uuid": "05a24ecc-8e57-4858-a288-ffbfe3b94046",
-  "timestamp": "2025-01-21T22:10:42+00:00",
+  "uuid": "3b931a84-7da6-4ad3-9cb2-db2a2467a05d",
+  "timestamp": "2025-01-26T16:33:24+00:00",
   "root": "/github/workspace",
   "repository": {
     "owner": "JackPlowman",
@@ -21,29 +21,21 @@
     "tree": {
       "./": {
         "entries": [
-          "webpack.config.js",
           "eslint.config.js",
+          "webpack.config.js",
           "src/"
         ],
         "profile": [0, 0, 0, 0]
       },
       "src/": {
         "entries": [
-          "content.js",
-          "background.js"
+          "background.js",
+          "content.js"
         ],
         "profile": [0, 0, 0, 0]
       }
     },
     "files": {
-      "webpack.config.js": {
-        "checksum": "c55c4a4485178fab78714849772e2527",
-        "language": "JavaScript",
-        "loc": 0,
-        "profile": [0, 0, 0, 0],
-        "measurements": [
-        ]
-      },
       "eslint.config.js": {
         "checksum": "efd598f4533ba2cb06e26c9b728982f0",
         "language": "JavaScript",
@@ -52,8 +44,8 @@
         "measurements": [
         ]
       },
-      "src/content.js": {
-        "checksum": "e790088d59854c079109adf7c419c227",
+      "webpack.config.js": {
+        "checksum": "c55c4a4485178fab78714849772e2527",
         "language": "JavaScript",
         "loc": 0,
         "profile": [0, 0, 0, 0],
@@ -62,6 +54,14 @@
       },
       "src/background.js": {
         "checksum": "e5d8f69334b2d1e86b27c254e5bb5a4e",
+        "language": "JavaScript",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "src/content.js": {
+        "checksum": "e790088d59854c079109adf7c419c227",
         "language": "JavaScript",
         "loc": 0,
         "profile": [0, 0, 0, 0],
