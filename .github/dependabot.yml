@@ -6,8 +6,7 @@ updates:
       - "/"
       - ".github/actions/setup-dependencies"
     schedule:
-      interval: "weekly"
-      day: "saturday"
+      interval: "daily"
       time: "01:00"
       timezone: "Europe/London"
     commit-message:
@@ -24,8 +23,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "weekly"
-      day: "saturday"
+      interval: "daily"
       time: "01:00"
       timezone: "Europe/London"
     commit-message:
